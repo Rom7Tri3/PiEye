@@ -1,5 +1,5 @@
 ## PiEye
-#Introduction
+# Introduction
 This project aims to implement face recognition using Raspberry Pi devices, with a dedicated Raspberry Pi to display the results. We are using three Raspberry Pi 5 8GB models, named PiEyeA, PiEyeB, and PiBrain. Initially, we planned to use the Pi Zero 2W, but they proved too slow for our purposes, necessitating the switch to the more powerful models.
 
 PiEyeA and PiEyeB are equipped with Zero Cam Noir cameras to capture faces. The Zero Cam Noir is a standard camera without infrared sensors, as IR capabilities were not needed for our purposes.
