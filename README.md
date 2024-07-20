@@ -107,3 +107,17 @@ sudo cp /etc/network/wifi-interface interfaces
 ```
 
 Now you can connect all raspberry pi's to the network 'PiEyeNet' and start the gossip.py program.
+
+To start the program on boot, add the following lines to 'rc.local' with ```sudo nano /erc/rc.local```
+
+```bash
+cd /path/to/the/directory/with/project
+python3 gossip.py &
+```
+If you wish the display.py program to start on boot, add the following lines to the same file:
+
+```bash
+cd /path/to/the/directory/with/project
+python3 gossip.py &
+python3 display.py
+```
